@@ -68,3 +68,8 @@ If any valid user is found, the tool enumerates its admin rights on the previous
 If any admin right is found on the SMB hosts, the tool dumps the built-in local administrator account hashes. For now, only **built-in administator account (RID 500)** is dumped (won't work if the account is disabled).
 
 The tool then checks for any password reuse on SMB hosts and then dumps cached domain credentials with lsassy module, hunting for domain admins.
+
+
+The visual and some verifications have changed but here is an idea of what it looks like when everything works fine.
+
+![Sikara](basic_use_case.png)
